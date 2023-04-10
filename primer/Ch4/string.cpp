@@ -12,6 +12,6 @@ int main(){
     string str4 {"str4"};
 
     ch1 = ch2; // INVALID
-    str4 = str2; // can be assigned
+    str4 = ch2; // can be assigned
     str4 += str3; // "ABCstr3"
 }

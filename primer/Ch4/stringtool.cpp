@@ -15,4 +15,7 @@ int main(){
     // appending for string objects and character arrays
     str1 += " paste";
     strcat(charr1, " juice");
+
+    int len1 = str1.size();
+    int len2 = strlen(charr1);
 }

@@ -1,10 +1,9 @@
 #include<iostream>
 using namespace std;
 int main(){
-    char t[] = "sdasd";
-    cout << t;
-    char s[10];
-    cin.get(s,10);
-    cout << cin.get();
+    int a[4];
+    cout << ( sizeof a ) / ( sizeof a[0] ) << endl;
+    cout << "I wanna to be"
+    "a new man" << endl;
     return 0;
 }
