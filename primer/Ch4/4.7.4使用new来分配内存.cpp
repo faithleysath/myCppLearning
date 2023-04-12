@@ -7,5 +7,6 @@ int main()
 
     int higgens; // 存储在 栈（stack）的内存区域中
     int * pt = &higgens;
+    
     return 0;
 }
